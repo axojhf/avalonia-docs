@@ -48,7 +48,7 @@ namespace RoutingExample
         <TextBlock Text="{Binding UrlPathSegment}" />
     </StackPanel>
 </UserControl>
-```"
+```
 
 **FirstView.xaml.cs**
 

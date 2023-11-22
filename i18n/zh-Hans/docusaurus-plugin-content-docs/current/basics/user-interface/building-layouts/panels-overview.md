@@ -42,7 +42,7 @@ Avalonia 中有几个优化支持 UI 场景的面板类：`Panel`、`Canvas`、`
 
 ### ClipToBounds 在 Canvas 中
 
-`Canvas` 可以将子元素定位在屏幕上的任何位置，甚至在超出其自定义的 `Height` 和 `Width` 的坐标。此外，`Canvas` 不受其子元素大小的影响。因此，子元素有可能覆盖位于父 `Canvas` 限界矩形之外的其他元素。`Canvas` 的默认行为是允许子元素绘制在父 `Canvas` 限界之外。如果不希望出现这种情况，可以将 `ClipToBounds` 属性设置为 `true`## RelativePanel
+`Canvas` 可以将子元素定位在屏幕上的任何位置，甚至在超出其自定义的 `Height` 和 `Width` 的坐标。此外，`Canvas` 不受其子元素大小的影响。因此，子元素有可能覆盖位于父 `Canvas` 限界矩形之外的其他元素。`Canvas` 的默认行为是允许子元素绘制在父 `Canvas` 限界之外。如果不希望出现这种情况，可以将 `ClipToBounds` 属性设置为 `true`
 
 ### 定义和使用 Canvas
 
